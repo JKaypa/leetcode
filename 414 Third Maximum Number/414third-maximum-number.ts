@@ -1,11 +1,4 @@
 function thirdMax(nums: number[]): number {
-    if(!nums.length){
-        return 0
-    }
-    
-    if(nums.length < 3){
-        return Math.max(...nums)
-    }
     
     let max = -Infinity
     let secondMax = max
